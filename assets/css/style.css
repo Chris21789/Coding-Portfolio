@@ -1,0 +1,38 @@
+body {
+    background-color: gold;
+}
+header {
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header h1 {    
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h2 {    
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+header section {
+    float: right;
+    padding-top: 15px;
+}
+
+header section ul{
+    list-style-type: none;
+}
+
+header section li{
+    display: inline-block;
+    padding: 25px;
+    font-size: 20px;
+}
+
+header section li a {
+    text-decoration: none;
+    color: black;
+}
