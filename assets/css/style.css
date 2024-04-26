@@ -20,19 +20,46 @@ header h2 {
 header section {
     float: right;
     padding-top: 15px;
+    background-color: gold
 }
 
 header section ul{
     list-style-type: none;
 }
 
-header section li{
+header section ul li{
     display: inline-block;
     padding: 25px;
     font-size: 20px;
 }
 
-header section li a {
+header section ul li a {
     text-decoration: none;
     color: black;
+}
+
+section {
+    background-color: white;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer section {
+    background-color: gold
+}
+
+footer section ul {
+    list-style-type: none;
+}
+
+footer section ul li {
+    display: inline-block;
+}
+
+footer section ul li a {
+    text-decoration: none;
+    color: black;    
 }
