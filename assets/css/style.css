@@ -38,7 +38,7 @@ header nav ul {
     min-width: 500px;
 }
 
-header nav li {
+nav li {
     display: inline-block;
     font-size: 20px;
 }
@@ -53,13 +53,13 @@ header nav a {
     box-shadow: 2px 5px 5px black;
 }
 
-header nav a:hover {
+nav a:hover {
     background-color: black;
     color: #FFC904;
     box-shadow: 2px 5px 5px silver;
 }
 
-.spacer {
+.hero {
     height: 300px;
     width: 100%;
     background-image: url(../images/ucf-building.webp);
@@ -105,11 +105,6 @@ footer nav ul {
     min-width: 600px;
 }
 
-footer nav li {
-    display: inline-block;
-    font-size: 20px;
-}
-
 footer nav a {
     margin: 0px 20px;
     text-decoration: none;
@@ -118,10 +113,4 @@ footer nav a {
     border-radius: 10px;
     padding:7px;
     box-shadow: 2px 5px 5px black;
-}
-
-footer nav a:hover {
-    background-color: black;
-    color: #FFC904;
-    box-shadow: 2px 5px 5px silver;
 }
