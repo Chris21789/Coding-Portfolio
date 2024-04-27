@@ -3,86 +3,125 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: #FFC904;
 }
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 15px 85px;    
+    background-color: #FFC904;
 }
 
-header h1 {    
-    font-size: 48px;
+h1 {    
+    font-size: 52px;
+    border-right: 15px double black;
+    padding-right: 20px;
 }
 
-header section {
-    float: right;
+h1:hover:after {
+    content: "Software Developer";
+    position: fixed;
+    left: 550px;
+    bottom: 822px;
+    min-width: 100px;
+    background-color: black;
+    padding: 26px 10px;
+    color:#FFC904;
+    font-size: 65%;
+    z-index: 1;
 }
 
-header section ul{
-    list-style-type: none;
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
 }
 
-header section ul li{
-    margin: 10px;
+header nav li {
     display: inline-block;
     font-size: 20px;
-    border:2px solid black;
-    border-radius: 10px;
-    padding:3px;
-    box-shadow: 2px 5px 5px black;
 }
 
-header section ul li a {
+header nav a {
     padding: 0px 15px;
     text-decoration: none;
     color: black;
+    border:2px solid black;
+    border-radius: 10px;
+    padding:7px;
+    box-shadow: 2px 5px 5px black;
+}
+
+header nav a:hover {
+    background-color: black;
+    color: #FFC904;
+    box-shadow: 2px 5px 5px silver;
 }
 
 .spacer {
     height: 300px;
     width: 100%;
-    margin-bottom: 25px;
     background-image: url(../images/ucf-building.webp);
     background-size: cover;
     background-position: center;
 }
 
-section {
-    background-color: white;
+main {   
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    flex: 1;
+    margin: 5px 0px;
+    padding: 20px;
+    text-align: right;
+    padding-right: 2px solid black;
+    border-right: 12px double #FFC904;
+}
+
+main section {
+    flex: 3;
+    padding: 20px;
 }
 
 footer {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px 0px;    
+    background-color: #FFC904;
 }
 
 footer h3 {
-    font-size: 24px;
+    font-size: 30px;
+    padding-right: 12px;
+    border-right: 12px double black;
 }
 
-footer section {
-    float: right;
+footer nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 600px;
 }
 
-footer section ul {
-    list-style-type: none;
-}
-
-footer section ul li {    
-    padding: 0px 25px;
+footer nav li {
     display: inline-block;
+    font-size: 20px;
 }
 
-footer section ul li a {
+footer nav a {
+    margin: 0px 20px;
     text-decoration: none;
     color: black;
     border:2px solid black;
     border-radius: 10px;
-    padding:8px;
+    padding:7px;
     box-shadow: 2px 5px 5px black;
+}
+
+footer nav a:hover {
+    background-color: black;
+    color: #FFC904;
+    box-shadow: 2px 5px 5px silver;
 }
