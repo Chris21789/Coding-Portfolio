@@ -1,9 +1,8 @@
 # Coding-Portfolio
-A portfolio that I will use to store and showcase my projects and skills as a developer
 
 ## Description
 
-
+This project will be my personal portfolio that I can use to showcase my talents as a developer. I can easily add links and images to new projects in the project section as I create them in the future.
 
 ## Installation
 
@@ -11,7 +10,7 @@ No installation is required for this project.
 
 ## Usage
 
-To use this Prework Study Guide, you can review the notes in each section. For suggestions on what to study first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. There you will see a list of topics we learned from the prework along with a suggestion on which topic to study first.
+To use this page click any of the top links in the nav bar to be directed to each section. Under the projects section, each project listed will have a clickable link that will direct the user to the project page shown in the portfolio. Finally, clicking the links in the contact me section will either attempt to use phone access to call me, default email function to create an email to me or direct the user to either my LinkedIn or Github pages.
 
 ## Credits
 

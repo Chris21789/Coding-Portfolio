@@ -138,7 +138,14 @@ nav a:hover {
 }
 
 .mp-info {
-    margin-top: auto;
+    position: relative;
+    bottom: 110px;
+    left: 20px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #FFC904;
+    padding: 20px 10px;
+    border: 2px solid #FFC904;
 }
 
 .projects {
@@ -147,7 +154,7 @@ nav a:hover {
 }
 
 .projects-card {
-    padding: 2%;
+    padding: 0px 5px;
     flex: 1 1 50%;
     display: flex;
     flex-wrap: wrap;
@@ -161,7 +168,14 @@ nav a:hover {
 }
 
 .projects-info {
-    margin-top: auto;
+    position: relative;
+    bottom: 85px;
+    left: 10px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #FFC904;
+    padding: 20px 10px;
+    border: 2px solid #FFC904;
 }
 
 footer {
@@ -169,6 +183,7 @@ footer {
 }
 
 h3 {
+    text-decoration: none;
     font-size: 30px;
 }
 
@@ -186,5 +201,16 @@ h3 {
         order: 0;
         border-bottom: 25px double #FFC904;
         border-right: none;
+    }
+
+    .projects-info {
+        position: relative;
+        bottom: 50px;
+        left: 5px;
+        border-radius: 5px;
+        background: rgba(0, 0, 0, 0.8);
+        color: #FFC904;
+        padding: 5px 2px;
+        border: 1px solid #FFC904;
     }
 }
